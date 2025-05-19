@@ -1,0 +1,111 @@
+export const ICQ_TABLE = [{
+    gender: 'male',
+    ageMin: 20,
+    ageMax: 29,
+    risks: [
+      { label: 'Low Risk', max: 0.82 },
+      { label: 'Moderate Risk', min: 0.83, max: 0.88 },
+      { label: 'High Risk', min: 0.89, max: 0.94 },
+      { label: 'Very High Risk', min: 0.95 },
+    ],
+  },
+  {
+    gender: 'male',
+    ageMin: 30,
+    ageMax: 39,
+    risks: [
+      { label: 'Low Risk', max: 0.83 },
+      { label: 'Moderate Risk', min: 0.84, max: 0.91 },
+      { label: 'High Risk', min: 0.92, max: 0.96 },
+      { label: 'Very High Risk', min: 0.97 },
+    ],
+  },
+  {
+    gender: 'male',
+    ageMin: 40,
+    ageMax: 49,
+    risks: [
+      { label: 'Low Risk', max: 0.87 },
+      { label: 'Moderate Risk', min: 0.88, max: 0.95 },
+      { label: 'High Risk', min: 0.96, max: 1.00 },
+      { label: 'Very High Risk', min: 1.01 },
+    ],
+  },
+  {
+    gender: 'male',
+    ageMin: 50,
+    ageMax: 59,
+    risks: [
+      { label: 'Low Risk', max: 0.89 },
+      { label: 'Moderate Risk', min: 0.90, max: 0.96 },
+      { label: 'High Risk', min: 0.97, max: 1.02 },
+      { label: 'Very High Risk', min: 1.03 },
+    ],
+  },
+  {
+    gender: 'male',
+    ageMin: 60,
+    ageMax: 69,
+    risks: [
+      { label: 'Low Risk', max: 0.90 },
+      { label: 'Moderate Risk', min: 0.91, max: 0.98 },
+      { label: 'High Risk', min: 0.99, max: 1.03 },
+      { label: 'Very High Risk', min: 1.04 },
+    ],
+  },
+  {
+    gender: 'female',
+    ageMin: 20,
+    ageMax: 29,
+    risks: [
+      { label: 'Low Risk', max: 0.70 },
+      { label: 'Moderate Risk', min: 0.71, max: 0.77 },
+      { label: 'High Risk', min: 0.78, max: 0.82 },
+      { label: 'Very High Risk', min: 0.83 },
+    ],
+  },
+  {
+    gender: 'female',
+    ageMin: 30,
+    ageMax: 39,
+    risks: [
+      { label: 'Low Risk', max: 0.71 },
+      { label: 'Moderate Risk', min: 0.72, max: 0.78 },
+      { label: 'High Risk', min: 0.79, max: 0.84 },
+      { label: 'Very High Risk', min: 0.85 },
+    ],
+  },
+  {
+    gender: 'female',
+    ageMin: 40,
+    ageMax: 49,
+    risks: [
+      { label: 'Low Risk', max: 0.72 },
+      { label: 'Moderate Risk', min: 0.73, max: 0.79 },
+      { label: 'High Risk', min: 0.80, max: 0.87 },
+      { label: 'Very High Risk', min: 0.88 },
+    ],
+  },
+  {
+    gender: 'female',
+    ageMin: 50,
+    ageMax: 59,
+    risks: [
+      { label: 'Low Risk', max: 0.73 },
+      { label: 'Moderate Risk', min: 0.74, max: 0.81 },
+      { label: 'High Risk', min: 0.82, max: 0.88 },
+      { label: 'Very High Risk', min: 0.89 },
+    ],
+  },
+  {
+    gender: 'female',
+    ageMin: 60,
+    ageMax: 69,
+    risks: [
+      { label: 'Low Risk', max: 0.75 },
+      { label: 'Moderate Risk', min: 0.76, max: 0.83 },
+      { label: 'High Risk', min: 0.84, max: 0.90 },
+      { label: 'Very High Risk', min: 0.91 },
+    ],
+  },
+  ]
