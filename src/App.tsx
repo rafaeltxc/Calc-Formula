@@ -12,17 +12,15 @@ const App: React.FC = () => {
           width={300}
           height={60}
           type={StyleEnum.String}
-          placeholder="12345"
+          placeholder="123kajshdkajsdh"
         />
-
-                aaaaa
 
         <DefaultInput
           fontSize={16}
           width={300}
           height={60}
           type={StyleEnum.Number}
-          placeholder="12345"
+          placeholder="dajshdkajshkdj"
         />
       </div>
     </>
