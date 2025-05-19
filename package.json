@@ -7,7 +7,7 @@
   "scripts": {
     "tsc": "tsc --noEmit",
     "build": "webpack",
-    "dev:renderer": "webpack serve --config webpack.renderer.mjs --watch",
+    "dev:renderer": "webpack serve --config webpack.renderer.mjs",
     "dev:electron": "wait-on http://localhost:3000 && cross-env NODE_ENV=development ELECTRON_START_URL=http://localhost:3000 electron .",
     "dev": "concurrently \"npm run dev:renderer\" \"npm run dev:electron\""
   },

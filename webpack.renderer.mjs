@@ -64,8 +64,7 @@ const config = {
     },
     historyApiFallback: true,
     compress: true,
-    hot: true,
-    port: 3001,
+    port: 3000,
   },
 };
 
