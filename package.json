@@ -7,6 +7,9 @@
   "scripts": {
     "tsc": "tsc --noEmit",
     "build": "webpack",
+    "build:exe:windows": "build && electron-packager . Calculo --platform=win32 --arch=x64 --out=executable --overwrite",
+    "build:exe:mac": "build && electron-packager . Calculo --platform=darwin --arch=x64 --out=executable --overwrite",
+    "build:exe:linux": "build && electron-packager . Calculo --platform=linux --arch=x64 --out=executable --overwrite",
     "dev:renderer": "webpack serve --config webpack.renderer.mjs",
     "dev:electron": "wait-on http://localhost:3000 && cross-env NODE_ENV=development ELECTRON_START_URL=http://localhost:3000 electron .",
     "dev": "concurrently \"npm run dev:renderer\" \"npm run dev:electron\""
@@ -24,6 +27,7 @@
     "cross-env": "^7.0.3",
     "css-loader": "^7.1.2",
     "electron": "^36.2.1",
+    "electron-packager": "^17.1.2",
     "electron-reload": "^2.0.0-alpha.1",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.4.0",
