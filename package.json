@@ -7,9 +7,9 @@
   "scripts": {
     "tsc": "tsc --noEmit",
     "build": "webpack",
-    "build:exe:windows": "build && electron-packager . Calculo --platform=win32 --arch=x64 --out=executable --overwrite",
-    "build:exe:mac": "build && electron-packager . Calculo --platform=darwin --arch=x64 --out=executable --overwrite",
-    "build:exe:linux": "build && electron-packager . Calculo --platform=linux --arch=x64 --out=executable --overwrite",
+    "build:exe:windows": "electron-packager . Calculo --platform=win32 --arch=x64 --out=executable --overwrite",
+    "build:exe:mac": "electron-packager . Calculo --platform=darwin --arch=x64 --out=executable --overwrite",
+    "build:exe:linux": "electron-packager . Calculo --platform=linux --arch=x64 --out=executable --overwrite",
     "dev:renderer": "webpack serve --config webpack.renderer.mjs",
     "dev:electron": "wait-on http://localhost:3000 && cross-env NODE_ENV=development ELECTRON_START_URL=http://localhost:3000 electron .",
     "dev": "concurrently \"npm run dev:renderer\" \"npm run dev:electron\""
@@ -46,6 +46,7 @@
     "webpack-hot-middleware": "^2.26.1"
   },
   "dependencies": {
+    "@ant-design/icons": "5.x",
     "@types/node": "^22.15.19",
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
