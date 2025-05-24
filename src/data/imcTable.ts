@@ -1,36 +1,38 @@
+import { EIMCRiskLabel } from "../enums/ERiskLabel.enum";
+
 export const IMC_TABLE = [{
     min: 0,
     max: 16,
-    imc: 'Muito abaixo do peso',
+    imc: EIMCRiskLabel.VERY_LOW,
   },
   {
     min: 17,
     max: 18.49,
-    imc: 'Abaixo do peso',
+    imc: EIMCRiskLabel.LOW,
   },
   {
     min: 18.5,
     max: 24.99,
-    imc: 'Peso normal',
+    imc: EIMCRiskLabel.NORMAL,
   },
   {
     min: 25,
     max: 29.99,
-    imc: 'Acima do peso',
+    imc: EIMCRiskLabel.HIGH,
   },
   {
     min: 30,
     max: 34.99,
-    imc: 'Obesidade 1',
+    imc: EIMCRiskLabel.OBESITY_1,
   },
   {
     min: 35,
     max: 39.99,
-    imc: 'Obesidade 2 (severa)',
+    imc: EIMCRiskLabel.OBESITY_2,
   },
   {
     min: 40,
     max: 1000,
-    imc: 'Obesidade 3 (mórbida)',
+    imc: EIMCRiskLabel.OBESITY_3,
   },
   ]

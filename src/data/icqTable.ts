@@ -1,12 +1,14 @@
+import { EICQRiskLabel } from "../enums/ERiskLabel.enum";
+
 export const ICQ_TABLE = [{
     gender: 'male',
     ageMin: 20,
     ageMax: 29,
     risks: [
-      { label: 'Low Risk', max: 0.82 },
-      { label: 'Moderate Risk', min: 0.83, max: 0.88 },
-      { label: 'High Risk', min: 0.89, max: 0.94 },
-      { label: 'Very High Risk', min: 0.95 },
+      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.82 },
+      { label: EICQRiskLabel.MODERATE_RISK, min: 0.83, max: 0.88 },
+      { label: EICQRiskLabel.MODERATE_RISK, min: 0.89, max: 0.94 },
+      { label: EICQRiskLabel.VERY_HIGH_RISK, min: 0.95 },
     ],
   },
   {
@@ -14,10 +16,10 @@ export const ICQ_TABLE = [{
     ageMin: 30,
     ageMax: 39,
     risks: [
-      { label: 'Low Risk', max: 0.83 },
-      { label: 'Moderate Risk', min: 0.84, max: 0.91 },
-      { label: 'High Risk', min: 0.92, max: 0.96 },
-      { label: 'Very High Risk', min: 0.97 },
+      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.83 },
+      { label: EICQRiskLabel.MODERATE_RISK, min: 0.84, max: 0.91 },
+      { label: EICQRiskLabel.HIGH_RISK, min: 0.92, max: 0.96 },
+      { label: EICQRiskLabel.VERY_HIGH_RISK, min: 0.97 },
     ],
   },
   {
@@ -25,10 +27,10 @@ export const ICQ_TABLE = [{
     ageMin: 40,
     ageMax: 49,
     risks: [
-      { label: 'Low Risk', max: 0.87 },
-      { label: 'Moderate Risk', min: 0.88, max: 0.95 },
-      { label: 'High Risk', min: 0.96, max: 1.00 },
-      { label: 'Very High Risk', min: 1.01 },
+      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.87 },
+      { label: EICQRiskLabel.MODERATE_RISK, min: 0.88, max: 0.95 },
+      { label: EICQRiskLabel.HIGH_RISK, min: 0.96, max: 1.00 },
+      { label: EICQRiskLabel.VERY_HIGH_RISK, min: 1.01 },
     ],
   },
   {
@@ -36,10 +38,10 @@ export const ICQ_TABLE = [{
     ageMin: 50,
     ageMax: 59,
     risks: [
-      { label: 'Low Risk', max: 0.89 },
-      { label: 'Moderate Risk', min: 0.90, max: 0.96 },
-      { label: 'High Risk', min: 0.97, max: 1.02 },
-      { label: 'Very High Risk', min: 1.03 },
+      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.89 },
+      { label: EICQRiskLabel.MODERATE_RISK, min: 0.90, max: 0.96 },
+      { label: EICQRiskLabel.HIGH_RISK, min: 0.97, max: 1.02 },
+      { label: EICQRiskLabel.VERY_HIGH_RISK, min: 1.03 },
     ],
   },
   {
@@ -47,10 +49,10 @@ export const ICQ_TABLE = [{
     ageMin: 60,
     ageMax: 69,
     risks: [
-      { label: 'Low Risk', max: 0.90 },
-      { label: 'Moderate Risk', min: 0.91, max: 0.98 },
-      { label: 'High Risk', min: 0.99, max: 1.03 },
-      { label: 'Very High Risk', min: 1.04 },
+      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.90 },
+      { label: EICQRiskLabel.MODERATE_RISK, min: 0.91, max: 0.98 },
+      { label: EICQRiskLabel.HIGH_RISK, min: 0.99, max: 1.03 },
+      { label: EICQRiskLabel.VERY_HIGH_RISK, min: 1.04 },
     ],
   },
   {
@@ -58,10 +60,10 @@ export const ICQ_TABLE = [{
     ageMin: 20,
     ageMax: 29,
     risks: [
-      { label: 'Low Risk', max: 0.70 },
-      { label: 'Moderate Risk', min: 0.71, max: 0.77 },
-      { label: 'High Risk', min: 0.78, max: 0.82 },
-      { label: 'Very High Risk', min: 0.83 },
+      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.70 },
+      { label: EICQRiskLabel.MODERATE_RISK, min: 0.71, max: 0.77 },
+      { label: EICQRiskLabel.HIGH_RISK, min: 0.78, max: 0.82 },
+      { label: EICQRiskLabel.VERY_HIGH_RISK, min: 0.83 },
     ],
   },
   {
@@ -69,10 +71,10 @@ export const ICQ_TABLE = [{
     ageMin: 30,
     ageMax: 39,
     risks: [
-      { label: 'Low Risk', max: 0.71 },
-      { label: 'Moderate Risk', min: 0.72, max: 0.78 },
-      { label: 'High Risk', min: 0.79, max: 0.84 },
-      { label: 'Very High Risk', min: 0.85 },
+      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.71 },
+      { label: EICQRiskLabel.MODERATE_RISK, min: 0.72, max: 0.78 },
+      { label: EICQRiskLabel.HIGH_RISK, min: 0.79, max: 0.84 },
+      { label: EICQRiskLabel.VERY_HIGH_RISK, min: 0.85 },
     ],
   },
   {
@@ -80,10 +82,10 @@ export const ICQ_TABLE = [{
     ageMin: 40,
     ageMax: 49,
     risks: [
-      { label: 'Low Risk', max: 0.72 },
-      { label: 'Moderate Risk', min: 0.73, max: 0.79 },
-      { label: 'High Risk', min: 0.80, max: 0.87 },
-      { label: 'Very High Risk', min: 0.88 },
+      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.72 },
+      { label: EICQRiskLabel.MODERATE_RISK, min: 0.73, max: 0.79 },
+      { label: EICQRiskLabel.HIGH_RISK, min: 0.80, max: 0.87 },
+      { label: EICQRiskLabel.VERY_HIGH_RISK, min: 0.88 },
     ],
   },
   {
@@ -91,10 +93,10 @@ export const ICQ_TABLE = [{
     ageMin: 50,
     ageMax: 59,
     risks: [
-      { label: 'Low Risk', max: 0.73 },
-      { label: 'Moderate Risk', min: 0.74, max: 0.81 },
-      { label: 'High Risk', min: 0.82, max: 0.88 },
-      { label: 'Very High Risk', min: 0.89 },
+      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.73 },
+      { label: EICQRiskLabel.MODERATE_RISK, min: 0.74, max: 0.81 },
+      { label: EICQRiskLabel.HIGH_RISK, min: 0.82, max: 0.88 },
+      { label: EICQRiskLabel.VERY_HIGH_RISK, min: 0.89 },
     ],
   },
   {
@@ -102,10 +104,10 @@ export const ICQ_TABLE = [{
     ageMin: 60,
     ageMax: 69,
     risks: [
-      { label: 'Low Risk', max: 0.75 },
-      { label: 'Moderate Risk', min: 0.76, max: 0.83 },
-      { label: 'High Risk', min: 0.84, max: 0.90 },
-      { label: 'Very High Risk', min: 0.91 },
+      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.75 },
+      { label: EICQRiskLabel.MODERATE_RISK, min: 0.76, max: 0.83 },
+      { label: EICQRiskLabel.HIGH_RISK, min: 0.84, max: 0.90 },
+      { label: EICQRiskLabel.VERY_HIGH_RISK, min: 0.91 },
     ],
   },
   ]

@@ -1,9 +1,11 @@
+import { EIACRiskLabel } from "../enums/ERiskLabel.enum";
+
 export const IAC_TABLE = [
     {
       gender: 'male',
       min: 6,
       max: 10,
-      imc: 'Excepcionalmente baixa',
+      imc: EIACRiskLabel.VERY_LOW,
     },
     {
       gender: 'male',
@@ -33,30 +35,30 @@ export const IAC_TABLE = [
       gender: 'female',
       min: 10,
       max: 15,
-      imc: 'Excepcionalmente baixa',
+      imc: EIACRiskLabel.VERY_LOW,
     },
     {
       gender: 'female',
       min: 16,
       max: 19,
-      imc: 'Baixa',
+      imc: EIACRiskLabel.LOW,
     },
     {
       gender: 'female',
       min: 20,
       max: 25,
-      imc: 'Ideal',
+      imc: EIACRiskLabel.NORMAL,
     },
     {
       gender: 'female',
       min: 26,
       max: 29,
-      imc: 'Moderada',
+      imc: EIACRiskLabel.MODERATE,
     },
     {
       gender: 'female',
       min: 30,
       max: 1000,
-      imc: 'Excesso de gordura',
+      imc: EIACRiskLabel.HIGH,
     },
   ]
