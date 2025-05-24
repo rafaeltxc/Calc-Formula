@@ -1,0 +1,1 @@
+{"version":3,"file":"BasicComponentLayout.d.ts","sourceRoot":"","sources":["../../../src/components/BasicComponentLayout.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAG1B,UAAU,yBAAyB;IAChC,KAAK,EAAE,MAAM,CAAC;IACd,QAAQ,EAAE,KAAK,CAAC,SAAS,CAAC;CAC1B;AAEH,eAAO,MAAM,oBAAoB,EAAE,KAAK,CAAC,EAAE,CAAC,yBAAyB,CAKpE,CAAA"}
