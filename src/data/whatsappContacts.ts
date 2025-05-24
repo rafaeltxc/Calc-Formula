@@ -10,6 +10,15 @@ export const whatsappContacts = [
     },
     {
         id: 2,
+        name: 'Gabriela',
+        surname: '',
+        phone: {
+            code: '19',
+            number: '986018484',
+        }
+    },
+    {
+        id: 3,
         name: 'Jéssica',
         surname: '',
         phone: {
@@ -18,7 +27,7 @@ export const whatsappContacts = [
         }
     },
     {
-        id: 3,
+        id: 4,
         name: 'Katia',
         surname: 'Silene',
         phone: {
@@ -27,25 +36,43 @@ export const whatsappContacts = [
         }
     },
     {
-        id: 4,
-        name: 'Mariana',
+        id: 5,
+        name: 'Lilian',
         surname: '',
         phone: {
             code: '19',
-            number: '993098490',
-        }
-    },
-    {
-        id: 5,
-        name: 'Maridete',
-        surname: 'Gomes',
-        phone: {
-            code: '19',
-            number: '9946586',
+            number: '999927517',
         }
     },
     {
         id: 6,
+        name: 'Mariana',
+        surname: '',
+        phone: {
+            code: '19',
+            number: '971229626',
+        }
+    },
+    {
+        id: 7,
+        name: 'Maridete',
+        surname: 'Gomes',
+        phone: {
+            code: '19',
+            number: '994658624',
+        }
+    },
+    {
+        id: 8,
+        name: 'Marina',
+        surname: '',
+        phone: {
+            code: '19',
+            number: '971229626',
+        }
+    },
+    {
+        id: 9,
         name: 'Michelle',
         surname: '',
         phone: {
@@ -54,16 +81,16 @@ export const whatsappContacts = [
         }
     },
     {
-        id: 7,
+        id: 10,
         name: 'Nicole',
         surname: '',
         phone: {
             code: '19',
-            number: '983669151',
+            number: '989466556',
         }
     },
     {
-        id: 8,
+        id: 11,
         name: 'Pink',
         surname: '',
         phone: {
@@ -72,12 +99,12 @@ export const whatsappContacts = [
         }
     },
     {
-        id: 9,
+        id: 12,
         name: 'Sandra',
         surname: '',
         phone: {
             code: '19',
-            number: '988912689',
+            number: '999396678',
         }
     },
 ]
