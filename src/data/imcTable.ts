@@ -1,6 +1,7 @@
-import { EIMCRiskLabel } from "../enums/ERiskLabel.enum";
+import { EIMCRiskLabel } from '../enums/ERiskLabel.enum';
 
-export const IMC_TABLE = [{
+export const IMC_TABLE = [
+  {
     min: 0,
     max: 16,
     imc: EIMCRiskLabel.VERY_LOW,
@@ -35,4 +36,4 @@ export const IMC_TABLE = [{
     max: 1000,
     imc: EIMCRiskLabel.OBESITY_3,
   },
-  ]
+];

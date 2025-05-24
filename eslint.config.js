@@ -11,7 +11,7 @@ export default defineConfig([
     plugins: { js },
     extends: ['js/recommended'],
     rules: {
-      indent: ['error', 2]
+      indent: ['error', 2],
     },
   },
   {

@@ -1,6 +1,7 @@
-import { EICQRiskLabel } from "../enums/ERiskLabel.enum";
+import { EICQRiskLabel } from '../enums/ERiskLabel.enum';
 
-export const ICQ_TABLE = [{
+export const ICQ_TABLE = [
+  {
     gender: 'male',
     ageMin: 20,
     ageMax: 29,
@@ -29,7 +30,7 @@ export const ICQ_TABLE = [{
     risks: [
       { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.87 },
       { label: EICQRiskLabel.MODERATE_RISK, min: 0.88, max: 0.95 },
-      { label: EICQRiskLabel.HIGH_RISK, min: 0.96, max: 1.00 },
+      { label: EICQRiskLabel.HIGH_RISK, min: 0.96, max: 1.0 },
       { label: EICQRiskLabel.VERY_HIGH_RISK, min: 1.01 },
     ],
   },
@@ -39,7 +40,7 @@ export const ICQ_TABLE = [{
     ageMax: 59,
     risks: [
       { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.89 },
-      { label: EICQRiskLabel.MODERATE_RISK, min: 0.90, max: 0.96 },
+      { label: EICQRiskLabel.MODERATE_RISK, min: 0.9, max: 0.96 },
       { label: EICQRiskLabel.HIGH_RISK, min: 0.97, max: 1.02 },
       { label: EICQRiskLabel.VERY_HIGH_RISK, min: 1.03 },
     ],
@@ -49,7 +50,7 @@ export const ICQ_TABLE = [{
     ageMin: 60,
     ageMax: 69,
     risks: [
-      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.90 },
+      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.9 },
       { label: EICQRiskLabel.MODERATE_RISK, min: 0.91, max: 0.98 },
       { label: EICQRiskLabel.HIGH_RISK, min: 0.99, max: 1.03 },
       { label: EICQRiskLabel.VERY_HIGH_RISK, min: 1.04 },
@@ -60,7 +61,7 @@ export const ICQ_TABLE = [{
     ageMin: 20,
     ageMax: 29,
     risks: [
-      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.70 },
+      { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.7 },
       { label: EICQRiskLabel.MODERATE_RISK, min: 0.71, max: 0.77 },
       { label: EICQRiskLabel.HIGH_RISK, min: 0.78, max: 0.82 },
       { label: EICQRiskLabel.VERY_HIGH_RISK, min: 0.83 },
@@ -84,7 +85,7 @@ export const ICQ_TABLE = [{
     risks: [
       { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.72 },
       { label: EICQRiskLabel.MODERATE_RISK, min: 0.73, max: 0.79 },
-      { label: EICQRiskLabel.HIGH_RISK, min: 0.80, max: 0.87 },
+      { label: EICQRiskLabel.HIGH_RISK, min: 0.8, max: 0.87 },
       { label: EICQRiskLabel.VERY_HIGH_RISK, min: 0.88 },
     ],
   },
@@ -106,8 +107,8 @@ export const ICQ_TABLE = [{
     risks: [
       { label: EICQRiskLabel.LOW_RISK, min: 0, max: 0.75 },
       { label: EICQRiskLabel.MODERATE_RISK, min: 0.76, max: 0.83 },
-      { label: EICQRiskLabel.HIGH_RISK, min: 0.84, max: 0.90 },
+      { label: EICQRiskLabel.HIGH_RISK, min: 0.84, max: 0.9 },
       { label: EICQRiskLabel.VERY_HIGH_RISK, min: 0.91 },
     ],
   },
-  ]
+];
